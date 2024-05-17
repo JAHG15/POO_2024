@@ -9,7 +9,7 @@ Tienes 4 variantes del if
 3.- if anidado
 4.-elif
 """
-"""
+
 #If simple
 color=input("Ingresa un color: ");
 if color=="rojo":
@@ -42,7 +42,7 @@ elif color=="morado":
      print("Soy el color morado");
 else:
      print("No soy ningun color de los anteriores");
-"""
+
 
 #Crear un programa que solicite el numero de la semana 
 #e imprima en pantalla el numero de la semana
