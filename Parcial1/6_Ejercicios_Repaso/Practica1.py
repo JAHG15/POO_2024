@@ -4,7 +4,7 @@ while True:
     iva=articulo*0.16;
     total_pagar=iva+articulo;
     print(f"Articulo: {nombre}\nTotal a pagar: ${total_pagar}");
-    
+
     while True:
         respuesta=input("Desea capturar otro articulo? SI/NO: ") .upper();
         if respuesta=="SI" or respuesta=="NO":
@@ -14,3 +14,4 @@ while True:
         
     if respuesta=="NO":
         break
+
